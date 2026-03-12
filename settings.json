@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra2.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra3.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra4.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra5.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_extra6.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/append_final.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/build_sft.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/build_sft2.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/build_sft3.py\")",
+      "Bash(python \"C:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/pretrain/fix_poetry.py\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''c:/Users/user/Desktop/GPT_From_Scratch/gpt-from-scratch/data/finetune/story_completion/sft_data.json'', encoding=''utf-8''\\)\\); print\\(''SFT records:'', len\\(d\\)\\)\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -m src.training.pretrain)",
+      "Bash(PYTHONIOENCODING=utf-8 python -m src.training.finetune --data data/finetune/story_completion/sft_data.json)",
+      "Bash(PYTHONIOENCODING=utf-8 python -m src.evaluation.error_analysis)",
+      "Bash(PYTHONIOENCODING=utf-8 python -m src.demo.app)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":7860\")",
+      "Bash(taskkill /PID 52220 /F)",
+      "Bash(cmd /c \"taskkill /PID 52220 /F\")",
+      "Bash(cmd /c \"taskkill /F /PID 52220\")",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/user/Desktop/GPT_From_Scratch/**)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from llms_from_scratch.ch02 import create_dataloader_v1; from llms_from_scratch.ch04 import GPTModel, generate_text_simple; import tiktoken; import torch; import matplotlib; import requests; print\\(''All imports OK''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(timeout 300 python 5.py)",
+      "Bash(PYTHONIOENCODING=utf-8 timeout 300 python 5.py)",
+      "Bash(ls -lh \"c:/Users/user/Desktop/GPT_From_Scratch/\"*.pth)",
+      "Bash(for d:*)",
+      "Bash(do)",
+      "Bash(touch \"$d/__init__.py\")",
+      "Bash(done)",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
